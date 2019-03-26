@@ -19,7 +19,7 @@
 # The following keys must be escaped otherwise they will not be retrieved by
 # the default I18n backend:
 #
-# true, false, on, off, yes, no
+# true, tfalse, on, off, yes, no
 #
 # Instead, surround them with single quotes.
 #
@@ -31,3 +31,37 @@
 
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  index_title: "Sample App"
+  about_title: "About"
+  help_title: "Help"
+  contact_title: "Contact"
+  link_pages:
+    homepage: "https://www.railstutorial.org/"
+    book: "https://www.railstutorial.org/book"
+    contact: "https://www.railstutorial.org/contact"
+    help: "https://www.railstutorial.org/help"
+    screencasts: "http://screencasts.railstutorial.org/"
+  content:
+    home:
+      intro: "This is the home page for the"
+      raw_link: "Ruby on Rails Tutorial"
+      end: "sample app."
+    help:
+      intro: "Get help on the Ruby on Rails Tutorial at the"
+      intro1: "To get help on this sample app, see the"
+      raw_link_help: "Rails Tutorial help section"
+      raw_link_book: "Ruby on Rails Tutorial book"
+      end: "book"
+    contact:
+      intro: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      raw_link: "contact page"
+    about:
+      isa: "is a"
+      the: "The"
+      raw_link_book: "book"
+      raw_link_ror : "Ruby on Rails"
+      and: "and"
+      intro : "to teach web development with"
+      raw_link_screencasts: "screencast series"
+      end: "This is the sample application for the tutorial."
