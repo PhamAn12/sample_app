@@ -1,0 +1,12 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to (raw t("layouts.app_name")), "#", id: "logo" %>
+      <nav>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to (raw t("layouts.home")), root_path %></li>
+          <li><%= link_to (raw t("layouts.help")), help_path %></li>
+          <li><%= link_to (raw t("layouts.login")), "#" %></li>
+        </ul>
+      </nav>
+  </div>
+</header>
