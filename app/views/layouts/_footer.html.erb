@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t "footer.the" %>
+    <%= link_to (raw t("content.home.raw_link")), t("link_pages.homepage") %>
+    <%= t "by" %>
+    <%= link_to (raw t("footer.MH")), t("link_pages.michaelhartl") %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to (raw t("about_title")), about_path %></li>
+      <li><%= link_to (raw t("contact_title")), contact_path   %></li>
+      <li><%= link_to (raw t("footer.news")), t("link_pages.news") %></li>
+    </ul>
+  </nav>
+</footer>

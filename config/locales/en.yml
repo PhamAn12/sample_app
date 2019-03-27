@@ -36,17 +36,22 @@ en:
   about_title: "About"
   help_title: "Help"
   contact_title: "Contact"
+  signup_title: "Sign up"
   link_pages:
     homepage: "https://www.railstutorial.org/"
     book: "https://www.railstutorial.org/book"
     contact: "https://www.railstutorial.org/contact"
     help: "https://www.railstutorial.org/help"
     screencasts: "http://screencasts.railstutorial.org/"
+    michaelhartl: "http://www.michaelhartl.com/"
+    news: "http://news.railstutorial.org/"
   content:
     home:
+      welcome: "Welcome to the Sample App"
       intro: "This is the home page for the"
       raw_link: "Ruby on Rails Tutorial"
       end: "sample app."
+      sign_up: "Sign up now!"
     help:
       intro: "Get help on the Ruby on Rails Tutorial at the"
       intro1: "To get help on this sample app, see the"
@@ -65,3 +70,17 @@ en:
       intro : "to teach web development with"
       raw_link_screencasts: "screencast series"
       end: "This is the sample application for the tutorial."
+  layouts:
+    app_name: "sample app"
+    home: "Home"
+    help: "Help"
+    login: "Login"
+  footer:
+    the: "The"
+    by: "by"
+    MH: "Michael Hartl"
+    news: "News"
+  users:
+    intro: "This will be a signup page for new users."
+
+
