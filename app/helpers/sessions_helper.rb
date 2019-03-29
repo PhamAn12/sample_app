@@ -31,8 +31,6 @@ module SessionsHelper
     end
   end
 
-# return true neu nguoi dung da login
-
   def logged_in?
     !current_user.nil?
   end

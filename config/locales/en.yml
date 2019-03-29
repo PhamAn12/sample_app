@@ -30,6 +30,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  account: "Account"
+  user: "Users"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "Log out"
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   index_title: "Sample App"
@@ -88,3 +93,8 @@ en:
     error: "User is not found!"
   button:
     submit: "Create my account"
+  session:
+    login: "Log in"
+    new_user: "New user?"
+    sign_up: "Sign up now !"
+    invalid: "Invalid email/password combination"
