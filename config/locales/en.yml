@@ -37,6 +37,7 @@ en:
   help_title: "Help"
   contact_title: "Contact"
   signup_title: "Sign up"
+  tfc: "The form contain"
   link_pages:
     homepage: "https://www.railstutorial.org/"
     book: "https://www.railstutorial.org/book"
@@ -82,4 +83,8 @@ en:
     news: "News"
   users:
     intro: "This will be a signup page for new users."
-
+  flash:
+    success: "Welcome to the Sample App!"
+    error: "User is not found!"
+  button:
+    submit: "Create my account"
