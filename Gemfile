@@ -15,6 +15,9 @@ gem "bootstrap-sass", "3.3.7"
 gem "config"
 gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "rails-ujs", "~> 0.1.0"
+gem "faker"
+gem "will_paginate", "3.1.6"
+gem "bootstrap-will_paginate", "1.0.0"
 gem "bootsnap", ">= 1.1.0", require: false
 
 group :development, :test do
