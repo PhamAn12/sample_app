@@ -2,8 +2,6 @@
 @import "bootstrap";
 @import "variable";
 
-/* universal */
-
 body {
   padding-top: 60px;
 }
@@ -22,8 +20,6 @@ textarea {
     margin-bottom: 10px;
   }
 }
-
-/* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -50,23 +46,20 @@ p {
   line-height: 1.7em;
 }
 
-/* header */
-
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: $white_color;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: $white_color;
+    color: white;
+    text-decoration: none;
   }
 }
-
-/* footer */
 
 footer {
   margin-top: 45px;
@@ -74,9 +67,9 @@ footer {
   border-top: 1px solid $gray-medium-light;
   color: $gray-light;
   a {
-    color: $dark-light;
+    color: $gray;
     &:hover {
-      color: $brown_color;
+      color: $gray-darker;
     }
   }
   small {
@@ -99,7 +92,7 @@ footer {
   box-sizing: border-box;
 }
 
-/* miscellaneous */
+  /* miscellaneous */
 
 .debug_dump {
   clear: both;

@@ -11,12 +11,18 @@
       <%= f.label :password %>
       <%= f.password_field :password, class: 'form-control' %>
 
-      <%= f.submit "Log in", class: "btn btn-primary" %>
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+        <%= f.check_box :remember_me %>
+        <span><%= t "remember_me"%></span>
+      <% end %>
+
+      <%= f.submit t("session.login"), class: "btn btn-primary" %>
     <% end %>
 
     <p>
       <%= t "session.new_user"%>
       <%= link_to (raw t("session.sign_up")), signup_users_path %>
     </p>
+
   </div>
 </div>

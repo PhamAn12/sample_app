@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  remember_me: "Remember me on this computer"
   account: "Account"
   user: "Users"
   profile: "Profile"
