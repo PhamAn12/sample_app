@@ -4,11 +4,11 @@
 #
 # To use the locales, use `I18n.t`:
 #
-#     I18n.t 'hello'
+#     I18n.t "hello"
 #
 # In views, this is aliased to just `t`:
 #
-#     <%= t('hello') %>
+#     <%= t("hello") %>
 #
 # To use a different locale, set it with `I18n.locale`:
 #
@@ -24,7 +24,7 @@
 # Instead, surround them with single quotes.
 #
 # en:
-#   'true': 'foo'
+#   "true": "foo"
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
@@ -36,6 +36,8 @@ en:
   profile: "Profile"
   settings: "Settings"
   logout: "Log out"
+  confirm: "You sure?"
+  change: "change"
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   index_title: "Sample App"
@@ -44,6 +46,9 @@ en:
   contact_title: "Contact"
   signup_title: "Sign up"
   tfc: "The form contain"
+  profile: "Profile"
+  setting: "Setting"
+  logout: "Log out"
   link_pages:
     homepage: "https://www.railstutorial.org/"
     book: "https://www.railstutorial.org/book"
@@ -52,6 +57,7 @@ en:
     screencasts: "http://screencasts.railstutorial.org/"
     michaelhartl: "http://www.michaelhartl.com/"
     news: "http://news.railstutorial.org/"
+    gravatar: "http://gravatar.com/emails"
   content:
     home:
       welcome: "Welcome to the Sample App"
@@ -82,6 +88,7 @@ en:
     home: "Home"
     help: "Help"
     login: "Login"
+    users: "Users"
   footer:
     the: "The"
     by: "by"
@@ -89,9 +96,17 @@ en:
     news: "News"
   users:
     intro: "This will be a signup page for new users."
+    edit_title: "Edit user"
+    save_button: "Save change"
+    save_button_create_acc: "Create my accout"
+    update_line: "Update your profile"
+    all_user: "All users"
   flash:
     success: "Welcome to the Sample App!"
     error: "User is not found!"
+    updated: "Profile updated"
+    login: "Please log in"
+    deleted: "User deleted"
   button:
     submit: "Create my account"
   session:
